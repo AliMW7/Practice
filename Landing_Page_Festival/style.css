@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+
+a, button{
+    cursor: pointer;
+}
+
+
+.mainHeader{
+    height: 4%;
+    display: flex;
+    background-color: #333;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right: 12%;
+
+    
+}
+.mainHeader a{
+    cursor: pointer;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: small;
+    margin: auto 2%;
+}
+
+.navHeader{
+    width: 100%;
+    display: flex;
+    background-color: rgba(255, 253, 253, 0.741);
+    height: 8%;
+    flex-direction: row-reverse;
+    padding-right: 15%;
+    align-items: center;
+}
+.navHeader button{
+
+    background-color: rgba(255, 255, 255, 0.741);
+    color: red;
+    margin-left: 5%;
+    width: 120px;
+    height: 30px;
+    border: 3px solid red;
+}
+.navHeader a{
+    color: #333;
+    margin-left: 5%;
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    background-image: url(main_background.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    background-position-y:100% ;
+    height: 600;
+
+}
+.container{
+    padding: 15px 20px;
+    border: px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 7%;
+    background: rgba(255, 255, 255, .2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: #222;
+    text-align: center;
+
+}
+.container h1 , h2{ 
+    font-size: xxx-large;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.36);
+}
+.container span{
+    display: block;
+    border: 1 solid #eee;
+    font-size: larger;
+}
+
+
+.mainFooter{
+    background:#111;
+    background-position: fixed;
+    background-size: contain;
+    background-repeat: repeat-x;
+    height: 120px;
+    text-align: center;
+}
+.mainFooter p, h4{
+    padding-top:10px ;
+    margin-bottom: 10px;
+}
+h4{
+    color: whitesmoke;
+    font-size: larger;
+}
+.footerItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+
+}
+.footerItem div{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.815);
+}
+.mainFooter p{
+    color: #111;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+button:hover{
+    color: white;
+    background-color: red;
+    border: 1px solid #111;
+
+}
+

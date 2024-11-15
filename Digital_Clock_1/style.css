@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Merienda:wght@300..900&family=Oleo+Script:wght@400;700&family=Quicksand:wght@300..700&display=swap');
+
+html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: radial-gradient(rgb(255, 136, 0)5%,rgb(253, 25, 242) 35%,rgb(105, 56, 239) 60%); 
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+p{
+    font-family: "Oleo Script", system-ui;
+    font-size: 10rem;
+    color: white;
+    
+
+}
+
+
+

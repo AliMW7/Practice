@@ -1,0 +1,51 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right bottom, rgb(235, 63, 63), rgb(88, 88, 253));
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid rgba(239, 236, 236, 0.564);
+    border-radius: 1rem;
+    height: 60vh;
+    width: 40vh;
+    background-color: rgba(128, 128, 128, 0.328);
+    box-shadow: rgba(182, 182, 182, 0.524) 0px 10px 36px 0px, rgba(182, 182, 182, 0.524) 0px 0px 0px 1px;
+}
+
+.body-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 0.5rem;
+    margin: 1rem;
+    
+}
+.btn-number, .btn-operation{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 100%;
+}
+
+input{
+    width: 15rem;
+    height: 5vh;
+    border-radius: 1rem;
+    margin-top:1rem;
+    background-color:white;
+
+}
+

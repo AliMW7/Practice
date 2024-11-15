@@ -1,0 +1,182 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.container{
+    border: 0.75rem solid rgb(4, 1, 15);
+    box-shadow: 5px 5px 10px 10px  rgba(22, 13, 61, 0.648);
+    width: 40rem;
+    height: 40rem;
+    border-radius: 100%;
+    background-color: rgb(16, 0, 54);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+img{
+    position: absolute;
+    left: 50%;
+
+
+}
+.center{
+    
+    position: absolute;
+    left: 49%;
+    top: 48.5%;
+    width: 3%;
+    height: 3%;
+    border-radius: 100%;
+    background-color: rgb(53, 30, 89);
+    z-index: 1000;
+}
+.container div{
+    margin: 0;
+    padding: 0;
+}
+.container div img{
+    margin: 0;
+    padding: 0;
+}
+.s{
+    
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 45%;
+    width: 24rem;
+    height: 4rem;
+    animation-name: "s";
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+    -webkit-animation-name: "s";
+    -webkit-animation-duration: 60s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    
+
+}
+.s img{
+    position: fixed;
+    width: 15rem;
+    height: 2rem;
+}
+
+@keyframes s{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(359deg);}
+}
+
+
+.m{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute ; 
+    animation-name: "m";
+    animation-duration: 3600s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    -webkit-animation-name: "m";
+    -webkit-animation-duration: 3600s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+.m img{
+    width: 13rem;
+    height: 2rem;
+
+}
+@keyframes m{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(359deg);}
+}
+.h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation-name: "h";
+    animation-duration: 21600s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    -webkit-animation-name: "h";
+    -webkit-animation-duration: 21600s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+.h img{
+    width: 9rem;
+    height: 2rem;
+
+}
+@keyframes h{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(359deg);}
+}
+
+span{
+    position: absolute;
+    font-size: 5.5rem;
+    color: rgb(235, 233, 233);
+}
+.c12{ 
+    top: 0;
+}
+.c6{ 
+    bottom: 0;
+}
+.c3{ 
+    right: 10px;
+
+}
+.c9{ 
+    left: 10px;
+}
+.c1{ 
+    top: 2.5rem;
+    right: 9rem;
+}
+.c2{ 
+    top: 8.5rem;
+    right: 3.5rem;
+}
+.c4{ 
+    bottom: 8.5rem;
+    right: 3.5rem;
+}
+.c5{ 
+    bottom: 2.5rem;
+    right: 9rem;
+}
+.c7{ 
+    bottom: 2.5rem;
+    left: 9rem;
+}
+.c8{ 
+    bottom: 8.5rem;
+    left: 3.5rem;
+}
+.c10{ 
+    top: 8.5rem;
+    left: 2.5rem;
+}
+.c11{ 
+    top: 2.5rem;
+    left: 9rem;
+}
+

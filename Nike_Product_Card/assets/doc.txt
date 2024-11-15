@@ -1,0 +1,4 @@
+querySelector()
+color2.addEventListener('click', () => {
+    container.classList.add('change)
+})
