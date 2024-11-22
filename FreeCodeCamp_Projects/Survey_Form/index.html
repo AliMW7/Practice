@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <label id="name-label" for="name" >Name</label><br>
+        <input placeholder="Enter your name" required type="text" id="name"><br>
+        
+        <label id="email-label" for="email">Email</label><br>
+        <input placeholder="Enter your Email" required type="email" id="email"><br>
+        
+        <label id="number-label" for="number"><strong>Age</strong>(optional)</label><br>
+        <input placeholder="Age" required type="number" id="number" value="10" min="10" max="100"><br>
+
+        <label id="dropdown-label" for="dropdown">Which option best describes your current role?</label><br>
+        <select  id="dropdown">
+            <option selected disabled >Select current role</option>
+            <option >Student</option>
+            <option >Full Time Job</option>
+            <option >Full Time Learner</option>
+            <option >Prefer not to say</option>
+            <option >other</option>
+        </select><br>
+
+        <label for="radio-btn">Would you recommend freeCodeCamp to a friend?</label><br>
+        <label><input type="radio" value="Definitely" name="radio-btn ">Definitely</label><br>
+        <label><input type="radio" value="Maybe" name="radio-btn ">Maybe</label> <br>
+        <label><input type="radio" value="Not sure" name="radio-btn ">Not sure</label><br>
+
+        <p>What would you like to see improved? <span>(Check all that apply)</span></p><br>
+        <label><input type="checkbox" value="Front-end Projects"> Front-end Projects</label><br>
+        <label><input type="checkbox" value="Back-end Projects"> Back-end Projects</label><br>
+        <label><input type="checkbox" value="Data Visualization"> Data Visualization</label><br>
+        <label><input type="checkbox" value="Challenges"> Challenges</label><br>
+        <label><input type="checkbox" value="Open Source Community"> Open Source Community</label><br>
+
+        <label for="textarea">Any comments or suggestions?</label><br>
+        <textarea name="textarea" id="textarea"></textarea><br>
+
+        <button id="submit" type="submit">Submit</button>
+
+    </form>
+</body>
+</html>
