@@ -1,0 +1,91 @@
+@media screen  and (max-width: 700px) {
+    #navbar{
+        display: none;
+    }
+
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: #4d4e53;
+    font-family:  'Open Sans', Arial, sans-serif;
+    line-height: 30px;
+}
+
+body{
+    display: flex;
+    padding-bottom: 10px;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+nav{
+    margin-top: 25px;
+    height: 100vh;
+   display: flex;
+   flex-direction: column;
+   width: 30%;
+   overflow: scroll;
+   overflow-x: hidden;
+   position: sticky;
+}
+header{
+    font-size: 29px;
+    color: #2b2b2b;
+}
+nav>header{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.nav-link{
+    border-top: 1px solid black;
+    padding-left: 10% ;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#main-doc{
+    margin-bottom: 0;
+    margin: 30px 50px;
+    margin-right: 0;
+    padding-right: 10px;
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+section>header{
+    margin: 15px;
+    margin-left: 0;
+}
+
+code{
+    background-color: #f7f7f7;
+    display: block;
+    padding: 3%;
+    font-size: .75rem;
+    margin: 20px;
+}
+
+p{
+    margin-left: 20px;
+}
+
+li{
+    margin-left: 50px; 
+    margin-top: 5px;
+    
+}
+
+.in-li{
+    margin-left: 120px; 
+    list-style: circle;
+}
